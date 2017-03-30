@@ -1,15 +1,15 @@
 # simview_notebooks
 Semi-realtime processing of microscopy data 
 
-Requires:
-Python scientific computing stack (e.g., via anaconda [insert link])
-Thunder [link / instructions]
-  to install thunder via pip: 
-   `pip install thunder-python`
+# Requirements #
+-- Python scientific computing stack (e.g., via [anaconda](https://www.continuum.io/downloads))
+-- Thunder
+    To install via pip:
+    `pip install thunder-python`
 
-Pyspark & a configured cluster [no link]
+-- Pyspark & configured compute cluster
+    Get scripts for launching spark jobs on the Janelia compute cluster here: [spark-janelia](https://github.com/freeman-lab/spark-janelia) 
 
-Code from these repos:
-
+# How to use # 
 log into the janelia compute cluster:
 `ssh login1.int.janelia.org`
