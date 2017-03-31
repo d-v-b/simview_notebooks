@@ -9,7 +9,7 @@ A Jupyter notebook featuring python code for quickly highlighting large regions 
 
     (e.g., [anaconda](https://www.continuum.io/downloads))
 
-* Thunder
+* [Thunder](http://thunder-project.org/)
 
     Install via pip:
     
