@@ -15,7 +15,7 @@ A Jupyter notebook featuring python code for quickly highlighting large regions 
     
     `pip install thunder-python`
 
-* Pyspark & configured compute cluster
+* [Pyspark](https://spark.apache.org/docs/0.9.0/python-programming-guide.html) & configured compute cluster
 
     Instructions for using the Janelia compute cluster can be found [here](http://wiki.int.janelia.org/wiki/display/ScientificComputing/Janelia+Compute+Cluster) on the Janelia intranet. 
    
