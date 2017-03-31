@@ -4,7 +4,7 @@ Semi-realtime processing of microscopy data.
 # Contents
 A Jupyter notebook featuring python code for quickly highlighting large regions of correlated pixels in volumetric imaging data.
 
-# Requirements #
+# Requirements
 * Python scientific computing stack.
 
     (e.g., [anaconda](https://www.continuum.io/downloads))
@@ -28,7 +28,7 @@ A Jupyter notebook featuring python code for quickly highlighting large regions 
     Once you log in to the cluster, you will need scripts for launching spark jobs on the Janelia compute cluster. Instructions for getting the required scripts and environment variables set up can be found here: [spark-janelia](https://github.com/freeman-lab/spark-janelia)
 
 
-# How to use this code# 
+# How to use this code 
 
 log into the janelia compute cluster:
 
@@ -46,6 +46,11 @@ If Python and Spark are configured properly, this command will start a Python in
 
 ```python
 sc.parallelize([0,1,2,3,4,5,6,7,8]).count()
+```
+
+If everything is working, you should see this (the total number of elements in the list we just parallelized): 
+```python
+9
 ```
 
 Once it's clear that Python and Spark are working, it makes sense to start Spark with a Jupyter notebook. To do this, run 
