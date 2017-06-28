@@ -36,11 +36,11 @@ log into the janelia compute cluster:
 
 Schedule a spark job. To request 10 workers, use this command:
 
-`spark-janelia launch-in -n10`
+`spark-janelia-lsf launch-in -n10`
 
 Once your job is ready, you will be logged in to a new node on the cluster. For simple debugging of your Spark settings, you can start up Python with Spark by running 
 
-`spark-janelia start`
+`spark-janelia-lsf start`
 
 If Python and Spark are configured properly, this command will start a Python interpreter with a special variable `sc` used for parallelizing data across the cluster. To test the basic operation of the Spark cluster, run 
 
@@ -55,7 +55,7 @@ If everything is working, you should see this (the total number of elements in t
 
 Once it's clear that Python and Spark are working, it makes sense to start Spark with a Jupyter notebook. To do this, run 
 
-`spark-janelia start -b`
+`spark-janelia-lsf start -b`
 
 This starts a server on the cluster which you can connect to via a browser on any computer connected to the secure Janelia network. To connect to that server, open a web browser and type 
 
